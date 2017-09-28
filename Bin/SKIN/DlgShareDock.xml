@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="620,20" roundcorner="2,2">
+	<Font name="微软雅黑" size="10" bold="true" default="true" />
+    <VerticalLayout bkcolor="#FF626A99">
+		<Label text="正在使用桌面共享" textpadding="0,4,0,0" align="center" textcolor="#FFFF0000" />
+    </VerticalLayout>
+</Window>

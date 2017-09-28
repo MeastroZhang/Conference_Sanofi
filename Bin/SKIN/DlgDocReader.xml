@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,30,0" mininfo="600,400" roundcorner="4,4">
+    <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+		<HorizontalLayout name="Caption" height="30" >
+			<VerticalLayout />
+			<Button name="btnMin" width="30" padding="20,0,0,0" normalimage="DlgConference/btnMin.png" hotimage="DlgConference/btnMinHot.png" />
+        </HorizontalLayout>
+		<wkeWebView name="wkeWebkit"/>
+    </VerticalLayout>
+</Window>
+

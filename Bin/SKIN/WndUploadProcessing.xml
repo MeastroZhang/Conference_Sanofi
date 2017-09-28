@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="248,148" sizebox="4,4,6,6" roundcorner="4,4" showshadow="true" shadowimage="common/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+	<Font name="微软雅黑" size="14" default="true" />
+    <VerticalLayout bkcolor="#FFFFFFFF">
+        <HorizontalLayout height="30" bkcolor="#FFE9EAEA" >
+            <Label name="labLogo" width="30" bkimage="DlgSharing/logo.png" />
+			<VerticalLayout />
+            <Button name="btnClose" width="30" normalimage="DlgSharing/btnClose.png" hotimage="DlgSharing/btnCloseHot.png" />
+        </HorizontalLayout>
+		<HorizontalLayout />
+		<HorizontalLayout name="UploadFailed">
+			<Label padding="20,0,0,0" align="center" text="文件加载失败！" textcolor="#FF288ADD" />
+		</HorizontalLayout>
+		<HorizontalLayout name="Upload">
+			<GifAnim width="36" height="36" padding="36,0,0,0" bkimage="common/loading.gif" />
+			<Label width="150" height="36" padding="20,0,0,0" text="文件加载中" textcolor="#FF288ADD" />
+		</HorizontalLayout>
+		<HorizontalLayout />
+    </VerticalLayout>
+</Window>

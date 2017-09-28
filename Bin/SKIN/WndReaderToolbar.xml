@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="620,60">
+	<Font name="微软雅黑" size="16" bold="true" default="true" />
+	<Default name="Button" value="height=&quot;60&quot; width=&quot;50&quot;"/>
+    <HorizontalLayout bkcolor="#FF626A99">
+		<Button name="btnMic" padding="10,0,0,0" normalimage="DlgConference/btnMic.png" hotimage="DlgConference/btnMicHot.png" disabledimage="DlgConference/btnMicDisable.png"/>
+		<Button name="btnMicClosed" visible="false" padding="10,0,0,0" normalimage="DlgConference/btnMicClosed.png" hotimage="DlgConference/btnMicClosedHot.png" disabledimage="DlgConference/btnMicDisable.png"/>
+	
+		<Button name="btnVideo" padding="26,0,0,0" normalimage="DlgConference/btnVideo.png" hotimage="DlgConference/btnVideoHot.png" disabledimage="DlgConference/btnVideoDisable.png"/>
+		<Button name="btnVideoClosed" visible="false" padding="26,0,0,0" normalimage="DlgConference/btnVideoClosed.png" hotimage="DlgConference/btnVideoClosedHot.png" disabledimage="DlgConference/btnVideoDisable.png"/>
+
+		<Button name="btnParticipants" padding="26,0,0,0" normalimage="DlgConference/btnParticipants.png" hotimage="DlgConference/btnParticipantsHot.png"/>		
+
+		<Button name="btnShare" padding="26,0,0,0" normalimage="DlgConference/btnShare.png" hotimage="DlgConference/btnShareHot.png" disabledimage="DlgConference/btnShareDisable.png"/>
+		
+        <Button name="btnReShare" padding="26,0,0,0" normalimage="common/btnReShare.png" hotimage="common/btnReShareHot.png"/>
+		
+		<Button name="btnStopShare" padding="26,0,0,0" normalimage="DlgConference/btnStopShare.png" hotimage="DlgConference/btnStopShareHot.png"/>
+
+		<!--<Button name="btnMore" padding="26,0,0,0" normalimage="common/btnMore.png" hotimage="common/btnMoreHot.png"/>-->
+
+		<Button name="btnClock" padding="26,0,0,0" width="116" font="1" textpadding="54,0,0,0" textcolor="#FFFFFFFF" align="left" normalimage="file='DlgConference/btnClock.png' dest='0,0,50,60'" hotimage="file='DlgConference/btnClockHot.png' dest='0,0,50,60'"/>
+		<Button name="btnTimer" visible="false" padding="26,0,0,0" width="116" font="1" textpadding="54,0,0,0" textcolor="#FFFFFFFF" align="left" normalimage="file='DlgConference/btnTimer.png' dest='0,0,50,60'" hotimage="file='DlgConference/btnTimerHot.png' dest='0,0,50,60'"/>
+    
+		<VerticalLayout />
+		<Button name="btnExit" padding="0,0,10,0" normalimage="DlgConference/btnExit.png" hotimage="DlgConference/btnExitHot.png" />
+	</HorizontalLayout>
+</Window>

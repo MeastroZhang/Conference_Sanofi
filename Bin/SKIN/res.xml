@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Res>
+  <Xml id="XML_MAIN" path="FrameWnd.xml"/>
+  <Xml id="XML_LOGIN" path="DlgLogin.xml"/>
+  <Xml id="XML_CONFERENCE" path="DlgConference.xml"/>
+  <Xml id="XML_DOCREADER" path="DlgDocReader.xml"/>
+  <Xml id="XML_SHARE_DOCK" path="DlgShareDock.xml"/>
+  <Xml id="XML_PARTICIPANTS" path="DlgParticipants.xml"/>
+  <Xml id="XML_PRIVATECHAT" path="DlgPrivateChat.xml"/>
+  <Xml id="XML_SETTING" path="DlgSetting.xml"/>
+  <Xml id="XML_SHARE" path="DlgShare.xml"/>
+  <Xml id="XML_SHARE_LOCAL" path="DlgShareLocal.xml"/>
+  <Xml id="XML_TRAY" path="MenuTray.xml"/>
+  <Xml id="XML_MSG_APPLY_FORBID" path="MsgApplyForbid.xml"/>
+  <Xml id="XML_MSG_COMMON" path="MsgCommon.xml"/>
+  <Xml id="XML_MSG_MODERATOR_EXIT" path="MsgModeratorExit.xml"/>
+  <Xml id="XML_MSG_ROOM_EXIT" path="MsgRoomExit.xml"/>
+  <Xml id="XML_WND_CONTROL" path="WndControl.xml"/>
+  <Xml id="XML_WND_FAST_REPLY" path="WndFastReply.xml"/>
+  <Xml id="XML_WND_INPUT_PIN" path="WndInputPin.xml"/>
+  <Xml id="XML_WND_LECTURE_MODE" path="WndLectureMode.xml"/>
+  <Xml id="XML_WND_PROCESSING" path="WndProcessing.xml"/>
+  <Xml id="XML_WND_READER_TOOLBAR" path="WndReaderToolbar.xml"/>
+  <Xml id="XML_WND_RIGHT_TOPBAR" path="WndRightTopbar.xml"/>
+  <Xml id="XML_WND_SET_MIC" path="WndSetMic.xml"/>
+  <Xml id="XML_WND_SET_PHOTO" path="WndSetPhoto.xml"/>
+  <Xml id="XML_WND_SET_PHOTO_PATH" path="WndSetPhotoPath.xml"/>
+  <Xml id="XML_WND_SET_SPEAKER" path="WndSetSpeaker.xml"/>
+  <Xml id="XML_WND_SET_VIDEO" path="WndSetVideo.xml"/>
+  <Xml id="XML_WND_TOOLBAR" path="WndToolbar.xml"/>
+  <Xml id="XML_WND_UPLOAD_PRO" path="WndUploadProcessing.xml"/>
+</Res>

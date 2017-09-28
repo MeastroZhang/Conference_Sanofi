@@ -1,0 +1,9 @@
+
+2017/2/16 14:07:29 : 普通 －－ 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex [:]    在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 qlmyGpePbMUIHnBiJwq.wJNZlPeSeHRBAoK1XEv.Um2TiTcs0OVu7fZX81T(Object , Int32 )
+   在 qlmyGpePbMUIHnBiJwq.wJNZlPeSeHRBAoK1XEv.lPi7lrQH9r(Object  , Int32  , Int32  )
+   在 rVOi9eet3UjuRHkaKWO.ImtAgveO0PqPoNtK37N.HM6GfR7fHRc0ku122NC(Object , Int32  , Int32  )
+   在 rVOi9eet3UjuRHkaKWO.ImtAgveO0PqPoNtK37N.Y9H0abfhHl(IPEndPoint  , Byte[]  ) 。错误类型:System.ArgumentOutOfRangeException。位置：ESFramework.Engine.Udp.Reliable.ReliableUdpEngine.udpClient_DataReceived
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,500" caption="0,0,0,30" sizebox="4,4,6,6" roundcorner="4,4" showshadow="true" shadowimage="common/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+	<Font name="微软雅黑" size="16" bold="true" default="true" />
+	<Font name="微软雅黑" size="18" id="1" />
+	<Default name="Button" value="height=&quot;40&quot; width=&quot;44&quot;"/>
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='scrollbar.png' source='16,0,32,16,16'&quot; button1pushedimage=&quot;file='scrollbar.png' source='32,0,48,16'&quot; button2normalimage=&quot;file='scrollbar.png' source='0,32,16,48'&quot; button2hotimage=&quot;file='scrollbar.png' source='16,32,32,48'&quot; button2pushedimage=&quot;file='scrollbar.png' source='32,32,48,48'&quot; thumbnormalimage=&quot;file='scrollbar.png' source='0,48,16,64' corner='0,2,0,2'&quot; thumbhotimage=&quot;file='scrollbar.png' source='16,48,32,64' corner='0,2,0,2'&quot; thumbpushedimage=&quot;file='scrollbar.png' source='32,48,48,64' corner='0,2,0,2'&quot; bknormalimage=&quot;file='scrollbar.png' source='0,16,16,32'&quot;" />
+    <VerticalLayout bkcolor="#FFE9EAEA">
+        <HorizontalLayout height="30" >
+			<Label name="labLogo" width="30" bkimage="DlgSharing/logo.png" />
+            <Label name="labCaption" width="200" textcolor="#FF626A99" textpadding="10,0,0,0" />
+			<VerticalLayout />
+            <Button name="btnClose" width="30" normalimage="DlgSharing/btnClose.png" hotimage="DlgSharing/btnCloseHot.png" />
+        </HorizontalLayout>
+		<HorizontalLayout height="40" padding="0,10,0,0" >
+			<VerticalLayout />
+			<VerticalLayout />
+			<VerticalLayout width="270">
+				<HorizontalLayout height="30" bkimage="DlgSharing/bgSearch.png">
+					<Edit name="editSearch" width="220" height="26" padding="10,2,0,2" font="1" />
+					<Option name="optSearch" width="30" padding="0,0,10,0" normalimage="common/btnSearch.png" hotimage="common/btnSearchSelect.png" selectedimage="common/btnSearchChose.png" />
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout />
+			<VerticalLayout width="100">
+				<HorizontalLayout name="ListTab" height="30">
+					<Option name="optList" group="ListTab" selected="true" width="30" normalimage="DlgSharing/optList.png" selectedimage="DlgSharing/optListHot.png"/>
+					<Option name="optIcon" group="ListTab" width="30" padding="20,0,20,0" normalimage="DlgSharing/optIcon.png" selectedimage="DlgSharing/optIconHot.png"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+        <TabLayout name="tabList" width="800" height="420" padding="0,10,0,0">
+			<VerticalLayout >
+				<List name="listParticipants" header="hidden" vscrollbar="true" itemshowhtml="true" bkcolor="FFFFFFFF">
+				</List>
+			</VerticalLayout>
+			<VerticalLayout >
+				<HorizontalLayout height="340">
+					<TileLayout name="tileBeShare" padding="0,1,0,1" bkcolor="#FFFFFFFF" />
+				</HorizontalLayout>
+			</VerticalLayout>
+        </TabLayout>
+    </VerticalLayout>
+</Window>
