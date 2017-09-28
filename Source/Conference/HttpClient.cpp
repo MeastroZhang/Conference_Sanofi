@@ -141,11 +141,16 @@ int curl_joinroom(char* szCode, char* szEmail, char* szCount)
 				g_sStartDate = val_meeting["mStartDate"].asString();
 				g_iTotalUser = val_meeting["count"].asInt();
 			}
-			else iResult = 2;
+			else
+			{
+				Json::Value val_data = root["data"];
+				string sError = val_data["msg"].asString();
+				iResult = stoi(sError);
+			}
 		}
 		else iResult = 3;
 	}
-	else iResult = 1;
+	else iResult = 4;
 
 	return iResult;
 }

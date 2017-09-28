@@ -229,11 +229,13 @@ void CDlgLogin::Login()
 
 		ShowRoomInfo();
 	}
-	else if (iResult == 1)
+	else if (iResult == 4)
 		LoginErrorTips(ERROR_SERVER_DISCONNECT);
 	else if (iResult == 2) 
-		LoginErrorTips(ERROR_CLIENT_INPUT_WRONG);
-	else 
+		LoginErrorTips(ERROR_CLIENT_EMAIL_WRONG);
+	else if (iResult == 1)
+		LoginErrorTips(ERROR_CLIENT_CODE_WRONG);
+	else
 		LoginErrorTips(ERROR_SERVER_ABNORMAL);
 }
 
@@ -263,6 +265,12 @@ void CDlgLogin::LoginErrorTips(unsigned int errorTpye)
 			break;
 		case ERROR_CLIENT_INPUT_WRONG:
 			project_language_loadstring(_T("LOGINERROR"), _T("inputwrong"), szText, MAX_PATH);
+			break;
+		case ERROR_CLIENT_CODE_WRONG:
+			project_language_loadstring(_T("LOGINERROR"), _T("codewrong"), szText, MAX_PATH);
+			break;
+		case ERROR_CLIENT_EMAIL_WRONG:
+			project_language_loadstring(_T("LOGINERROR"), _T("emailwrong"), szText, MAX_PATH);
 			break;
 		case ERROR_SERVER_DISCONNECT:
 			project_language_loadstring(_T("LOGINERROR"), _T("disconnect"), szText, MAX_PATH);
